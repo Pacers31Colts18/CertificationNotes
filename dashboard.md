@@ -19,8 +19,8 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Week 6: Final Prep
 
 ## Week 1 – Manage Azure Identities & Governance
-- [ ] Microsoft Learn – Manage identities and governance in Azure
-- [ ] CloudLee Lecture – Entra ID Essentials
+- [x] Microsoft Learn – Manage identities and governance in Azure
+- [x] CloudLee Lecture – Entra ID Essentials
 - [ ] CloudLee Demo – Explore Entra ID Tenant
 - [ ] CloudLee Lecture – IAM Roles
 - [ ] CloudLee Demo – Manage Entra ID Tenants
@@ -103,4 +103,5 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Review weak areas from test #2
 - [ ] Learn Azure app quizzes (Final review)
 - [ ] Light review + rest before exam
+
 
