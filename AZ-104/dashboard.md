@@ -20,9 +20,9 @@ Schedule: 6 weeks - ~2 Hours/Day
 
 ## Week 1 – Manage Azure Identities & Governance
 - [x] Microsoft Learn – Manage identities and governance in Azure
-- [x] CloudLee Lecture – Entra ID Essentials
+- [ ] CloudLee Lecture – Entra ID Essentials
 - [x] CloudLee Demo – Explore Entra ID Tenant
-- [ ] CloudLee Lecture – IAM Roles
+- [x] CloudLee Lecture – IAM Roles
 - [ ] CloudLee Demo – Manage Entra ID Tenants
 - [ ] CloudLee Demo – Configure Domains
 - [ ] CloudLee Demo – Create & Manage User Identities
