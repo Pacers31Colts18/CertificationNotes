@@ -31,6 +31,9 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] CloudLee Demo – Create & Manage Groups, Licenses, Dynamic Groups
 - [ ] CloudLee Demo – Manage Azure Resource Security with RBAC
 - [ ] CloudLee Demo – Configure Custom RBAC Roles
+- [ ] Microsoft Lab - Lab01 - Manage Microsoft Entra ID Identities
+- [ ] Microsoft Lab - Lab02a - Manage Subscriptions and RBAC
+- [ ] Microsoft Lab - Lab02b - Manage Governance via Azure Policy 
 - [ ] Learn Azure app quizzes (Identity/Governance)
 - [ ] Tutorials Dojo practice test (Identity/Governance)
 
@@ -44,6 +47,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] CloudLee Demo – Blob lifecycle management
 - [ ] CloudLee Lecture – Azure Files
 - [ ] CloudLee Demo – Azure Files setup
+- [ ] Microsoft Lab - Lab07 - Manage Azure Storage
 - [ ] Hands-on lab – Replication & redundancy
 - [ ] Learn Azure app quizzes (Storage)
 - [ ] Tutorials Dojo practice test (Storage)
@@ -103,6 +107,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Review weak areas from test #2
 - [ ] Learn Azure app quizzes (Final review)
 - [ ] Light review + rest before exam
+
 
 
 
