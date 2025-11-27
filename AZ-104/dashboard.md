@@ -23,10 +23,10 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [x] CloudLee Lecture – Entra ID Essentials
 - [x] CloudLee Demo – Explore Entra ID Tenant
 - [x] CloudLee Lecture – IAM Roles
-- [ ] CloudLee Demo – Manage Entra ID Tenants
-- [ ] CloudLee Demo – Configure Domains
-- [ ] CloudLee Demo – Create & Manage User Identities
-- [ ] CloudLee Demo – Register Application in Entra ID
+- [x] CloudLee Demo – Manage Entra ID Tenants
+- [x] CloudLee Demo – Configure Domains
+- [x] CloudLee Demo – Create & Manage User Identities
+- [x] CloudLee Demo – Register Application in Entra ID
 - [ ] CloudLee Demo – Configure Managed Identities
 - [ ] CloudLee Demo – Create & Manage Groups, Licenses, Dynamic Groups
 - [ ] CloudLee Demo – Manage Azure Resource Security with RBAC
@@ -103,6 +103,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Review weak areas from test #2
 - [ ] Learn Azure app quizzes (Final review)
 - [ ] Light review + rest before exam
+
 
 
 
