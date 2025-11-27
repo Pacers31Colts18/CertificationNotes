@@ -1,0 +1,50 @@
+## Exploring your Entra ID Tenant
+- portal.azure.com
+- entra.microsoft.com
+- admin.microsoft.com
+
+## About the Free Azure Subscription
+
+## Create and Manage Entra ID tenants
+Manage Tenants > Create
+
+## Create and Manage Azure Subscriptions
+- Subscriptions = 1 Entra ID Tenant
+**Subscription**: SUB-joeLoveless.com-AZ-104
+**Tenant**: JoeLoveless - AZ-104 (joelovelessaz104.onmicrosoft.com)
+
+## Configure Domains for Entra ID
+- Entra ID > Custom Domain Names
+- TXT or MX Record
+- Domain Registrar
+- **Domain**: joeloveless.dev
+
+## Create and Manage User Identities
+- Entra ID > New User
+- Delete User > Mike Smith > Deleted Users
+  - Allows you to restore the account.
+
+## Bulk Create User Identities
+- users > Bulk Operations
+  - Bulk Create
+  - Bulk Invite
+  - Bulk Delete
+- CSV file
+
+## Register an Application in Entra ID
+- Entra ID > App Registrations
+  - Single tenant
+  - Multi Tenant
+  - Multi Tenant and Personal
+  - Personal
+- App-JoeLoveless.dev-FinanceApp
+- API Permissions
+  - Delegated
+  - Application
+- App Roles
+  - Can configure permissions on who can use the apps and their roles (read, read/write, etc)
+- Enterprise Applications
+  - Users and Groups
+    - Who can access the App
+
+
