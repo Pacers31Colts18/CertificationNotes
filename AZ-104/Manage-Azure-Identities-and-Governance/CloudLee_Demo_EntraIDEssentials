@@ -47,4 +47,15 @@ Manage Tenants > Create
   - Users and Groups
     - Who can access the App
 
+## Configure Managed Identities (System Assigned)
+- More secure than Application Registration
+- VM > Security > Identity > System-Assigned (On)
+```powershell
+az login --identity
+```
+- Don't need to use a username and password
+
+## Configute Managed Identities (User Assigned)
+
+
 
