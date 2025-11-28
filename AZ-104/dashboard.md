@@ -19,24 +19,28 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Week 6: Final Prep
 
 ## Week 1 – Manage Azure Identities & Governance
-- [x] Microsoft Learn – Manage identities and governance in Azure
-- [x] CloudLee Lecture – Entra ID Essentials
-- [x] CloudLee Demo – Explore Entra ID Tenant
-- [x] CloudLee Lecture – IAM Roles
-- [x] CloudLee Demo – Manage Entra ID Tenants
-- [x] CloudLee Demo – Configure Domains
-- [x] CloudLee Demo – Create & Manage User Identities
-- [x] CloudLee Demo – Register Application in Entra ID
-- [x] CloudLee Demo – Configure Managed Identities (System Assigned)
-- [x] CloudLee Demo - Configure Managed Identities (User Assigned) 
-- [ ] CloudLee Demo – Create & Manage Groups, Licenses, Dynamic Groups
-- [ ] CloudLee Demo – Manage Azure Resource Security with RBAC
-- [ ] CloudLee Demo – Configure Custom RBAC Roles
-- [ ] Microsoft Lab - Lab01 - Manage Microsoft Entra ID Identities
-- [ ] Microsoft Lab - Lab02a - Manage Subscriptions and RBAC
-- [ ] Microsoft Lab - Lab02b - Manage Governance via Azure Policy 
-- [ ] Learn Azure app quizzes (Identity/Governance)
-- [ ] Tutorials Dojo practice test (Identity/Governance)
+
+### CloudLee - Lectures
+- [x] Entra ID Essentials
+- [x] Identity and Access Management
+
+### Microsoft Learn
+- [x] Manage identities and governance in Azure
+
+### CloudLee - Demos
+- [x] Entra ID Essentials
+- [ ] Identity and Access Management
+
+### Microsoft - Labs
+- [ ] Lab01 - Manage Microsoft Entra ID Identities
+- [ ] Lab02a - Manage Subscriptions and RBAC
+- [ ] Lab02b - Manage Governance via Azure Policy
+
+### Azure Learn App
+- [ ] Identity/Governance Quizzes
+
+### Tutorials Dojo
+- [ ] Identity/Governance Practice Test
 
 ---
 
@@ -108,6 +112,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Review weak areas from test #2
 - [ ] Learn Azure app quizzes (Final review)
 - [ ] Light review + rest before exam
+
 
 
 
