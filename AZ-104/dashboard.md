@@ -27,7 +27,8 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [x] CloudLee Demo – Configure Domains
 - [x] CloudLee Demo – Create & Manage User Identities
 - [x] CloudLee Demo – Register Application in Entra ID
-- [ ] CloudLee Demo – Configure Managed Identities
+- [x] CloudLee Demo – Configure Managed Identities (System Assigned)
+- [x] CloudLee Demo - Configure Managed Identities (User Assigned) 
 - [ ] CloudLee Demo – Create & Manage Groups, Licenses, Dynamic Groups
 - [ ] CloudLee Demo – Manage Azure Resource Security with RBAC
 - [ ] CloudLee Demo – Configure Custom RBAC Roles
@@ -107,6 +108,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Review weak areas from test #2
 - [ ] Learn Azure app quizzes (Final review)
 - [ ] Light review + rest before exam
+
 
 
 
