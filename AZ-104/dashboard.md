@@ -32,7 +32,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [x] Identity and Access Management
 
 ### Microsoft - Labs
-- [ ] Lab01 - Manage Microsoft Entra ID Identities
+- [x] Lab01 - Manage Microsoft Entra ID Identities
 - [ ] Lab02a - Manage Subscriptions and RBAC
 - [ ] Lab02b - Manage Governance via Azure Policy
 
@@ -112,6 +112,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Review weak areas from test #2
 - [ ] Learn Azure app quizzes (Final review)
 - [ ] Light review + rest before exam
+
 
 
 
