@@ -11,7 +11,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 5. Monitor and maintain Azure resources
 
 ## Master Progress Tracker
-- [ ] Week 1: Identity & Governancwe
+- [x] Week 1: Identity & Governancwe
 - [ ] Week 2: Networking
 - [ ] Week 3: Compute
 - [ ] Week 4: Storage & Backup
@@ -34,10 +34,10 @@ Schedule: 6 weeks - ~2 Hours/Day
 ### Microsoft - Labs
 - [x] Lab01 - Manage Microsoft Entra ID Identities
 - [x] Lab02a - Manage Subscriptions and RBAC
-- [ ] Lab02b - Manage Governance via Azure Policy
+- [x] Lab02b - Manage Governance via Azure Policy
 
 ### Azure Learn App
-- [ ] Identity/Governance Quizzes
+- [x] Identity/Governance Quizzes
 
 ### Tutorials Dojo
 - [x] Identity/Governance Practice Test
@@ -113,6 +113,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Review weak areas from test #2
 - [ ] Learn Azure app quizzes (Final review)
 - [ ] Light review + rest before exam
+
 
 
 
