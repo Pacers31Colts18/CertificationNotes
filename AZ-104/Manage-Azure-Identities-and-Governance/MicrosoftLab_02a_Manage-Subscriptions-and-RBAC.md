@@ -2,9 +2,9 @@
 
 - Task 1: Implement management groups
   - Management Groups > Create
-Task 2: Review and assign a built-in Azure role
+- Task 2: Review and assign a built-in Azure role
   - Management Groups > Access Control > Add Role Assignment
-Task 3: Create a custom RBAC role
+- Task 3: Create a custom RBAC role
   - Management Groups > Access Control > Add Custom Role
  
 ```json
@@ -32,5 +32,5 @@ Task 3: Create a custom RBAC role
     }
 }
 ```
-Task 4: Monitor role assignments with the Activity Log
+- Task 4: Monitor role assignments with the Activity Log
   - Activity Log
