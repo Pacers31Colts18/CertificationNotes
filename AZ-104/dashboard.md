@@ -29,7 +29,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 
 ### CloudLee - Demos
 - [x] Entra ID Essentials
-- [ ] Identity and Access Management
+- [x] Identity and Access Management
 
 ### Microsoft - Labs
 - [ ] Lab01 - Manage Microsoft Entra ID Identities
@@ -112,6 +112,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Review weak areas from test #2
 - [ ] Learn Azure app quizzes (Final review)
 - [ ] Light review + rest before exam
+
 
 
 
