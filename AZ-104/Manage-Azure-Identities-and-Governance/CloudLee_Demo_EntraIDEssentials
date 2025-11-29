@@ -55,7 +55,15 @@ az login --identity
 ```
 - Don't need to use a username and password
 
-## Configute Managed Identities (User Assigned)
+## Configure Managed Identities (User Assigned)
 
+## Create and Manage Groups
+
+## Manage Entra ID Licenses
+admin.cloud.microsoft.com
+
+## Create and Manage Dynamic Groups
+
+## Configure Administrative Units
 
 
