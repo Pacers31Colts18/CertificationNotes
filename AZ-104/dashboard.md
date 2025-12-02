@@ -48,7 +48,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 ## Week 2 – Configure & Manage Virtual Networking
 
 ### Microsoft Learn
-- [ ] Configure and manage virtual networks for Azure administrators
+- [x] Configure and manage virtual networks for Azure administrators
 
 ### CloudLee - Demos
 - [ ] Create VNet + Subnet
@@ -125,6 +125,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Review weak areas from test #2
 - [ ] Learn Azure app quizzes (Final review)
 - [ ] Light review + rest before exam
+
 
 
 
