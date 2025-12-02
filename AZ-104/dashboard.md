@@ -45,7 +45,34 @@ Schedule: 6 weeks - ~2 Hours/Day
 
 ---
 
-## Week 2 – Implement & Manage Storage
+## Week 2 – Configure & Manage Virtual Networking
+
+### Microsoft Learn
+- [ ] Configure and manage virtual networks for Azure administrators
+
+### CloudLee - Demos
+- [ ] Create VNet + Subnet
+- [ ] Configure NSG rules
+- [ ] Deploy VPN Gateway
+- [ ] Configure Azure Firewall
+
+### CloudLee - Lectures
+
+- [ ] VNets & Subnets
+- [ ] NSGs
+- [ ] VPN Gateway
+- [ ] Azure Firewall
+
+### Azure Learn App
+- [ ] Networking Quizzes
+
+### Tutorials Dojo
+- [ ] Networking Practice Test
+
+---
+
+
+## Week 3 – Implement & Manage Storage
 - [ ] Microsoft Learn – Configure storage accounts
 - [ ] CloudLee Lecture – Storage Accounts
 - [ ] CloudLee Demo – Create & Configure Storage Account
@@ -60,7 +87,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 
 ---
 
-## Week 3 – Deploy & Manage Compute Resources
+## Week 4 – Deploy & Manage Compute Resources
 - [ ] Microsoft Learn – VM basics
 - [ ] CloudLee Lecture – Virtual Machines
 - [ ] CloudLee Demo – Deploy VM in Portal
@@ -71,21 +98,6 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] CloudLee Demo – Deploy App Service
 - [ ] Learn Azure app quizzes (Compute)
 - [ ] Tutorials Dojo practice test (Compute)
-
----
-
-## Week 4 – Configure & Manage Virtual Networking
-- [ ] Microsoft Learn – Configure VNets
-- [ ] CloudLee Lecture – VNets & Subnets
-- [ ] CloudLee Demo – Create VNet + Subnet
-- [ ] CloudLee Lecture – NSGs
-- [ ] CloudLee Demo – Configure NSG rules
-- [ ] CloudLee Lecture – VPN Gateway
-- [ ] CloudLee Demo – Deploy VPN Gateway
-- [ ] CloudLee Lecture – Azure Firewall
-- [ ] CloudLee Demo – Configure Azure Firewall
-- [ ] Learn Azure app quizzes (Networking)
-- [ ] Tutorials Dojo practice test (Networking)
 
 ---
 
@@ -113,6 +125,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Review weak areas from test #2
 - [ ] Learn Azure app quizzes (Final review)
 - [ ] Light review + rest before exam
+
 
 
 
