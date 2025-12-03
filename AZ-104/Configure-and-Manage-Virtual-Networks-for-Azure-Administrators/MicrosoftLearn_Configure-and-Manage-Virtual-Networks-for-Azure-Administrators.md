@@ -460,6 +460,8 @@ nslookup -type=SOA joeloveless.dev
 - Can create multiple route tables
   - each table can be associated with one or more subnets
 **NVAs should be highly available**
+## Introduction to Azure Load Balancer
+
 
 
 
