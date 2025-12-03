@@ -314,3 +314,15 @@ nslookup -type=SOA joeloveless.dev
 - Hosts load-balanced applications at the zone apex
 - Points zone apex to Azure CDN endpoints
 ## Configure Azure Virtual Network Peering
+- Peering provides secure communication between resources in peered networks.
+### Determine Azure Virtual Network Peering Uses
+- Two types:
+  - Global or Regional
+- Connect **two** networks
+  - Can peer across subscription and tenants
+- Uses Azrure backbone for privacy and isolation
+- Easy to setup seamless data transfer, great performance
+
+**Region1**       **Region2**
+[VNET1]<----Global VNet Peering----->[VNET2 <----Regional VNET Peering------> VNET3]
+        
