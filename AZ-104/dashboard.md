@@ -51,17 +51,22 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [x] Configure and manage virtual networks for Azure administrators
 
 ### CloudLee - Demos
-- [ ] Create VNet + Subnet
-- [ ] Configure NSG rules
-- [ ] Deploy VPN Gateway
-- [ ] Configure Azure Firewall
+- [ ] Virtual Networking
+- [ ] Advanced Networking
+- [ ] Load Balancing and Connectivity
+- [ ] Monitoring
 
 ### CloudLee - Lectures
 
-- [ ] VNets & Subnets
-- [ ] NSGs
-- [ ] VPN Gateway
-- [ ] Azure Firewall
+- [ ] Virtual Networking
+- [ ] Advanced Networking
+- [ ] Load Balancing and Connectivity
+- [ ] Monitoring
+
+### Microsoft - Labs
+- [ ] Lab04 - Implement Virtual Networking
+- [ ] Lab05 - Implement Intersite Connectivity
+- [ ] Lab06 - Implement Network Traffic Management
 
 ### Azure Learn App
 - [ ] Networking Quizzes
@@ -125,6 +130,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Review weak areas from test #2
 - [ ] Learn Azure app quizzes (Final review)
 - [ ] Light review + rest before exam
+
 
 
 
