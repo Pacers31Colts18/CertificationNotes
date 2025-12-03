@@ -387,7 +387,79 @@ nslookup -type=SOA joeloveless.dev
   - Virtual network peering enables the next hop in a **user-defined** route to be the IP address of a VM in teh peered virtual network or a VPN gateway.
 - Service Chaining
   - Used to direct traffic from one virtual network to a virtual appliance or gateway
-  - 
-        
+## Manage and Control Traffic Flow in your Azure deployment with routes
+### Identify routing capabilities of an Azure Virtual Network
+#### Azure Routing
+- Can't create or delete system routes but you can override the system routes by adding custom routes to control traffic flow to the next hop.
+- Every subnet has the following default system routes:
+| Address Prefix                | Next Hop Type  |
+| ----------------------------- | -------------- |
+| Unique to the virtual network | Virtual network| 
+| 0.0.0.0/0                     | Internet       |
+| 10.0.0.0/8                    | None           |
+| 172.16.0.0/12                 | None           |
+| 192.168.0.0/16                | None           |
+| 100.64.0.0/0                  | None           |
+- **None = Dropped**
+- There are other system routes. Azure creates these routes if the following capabilities are enabled:
+  - Virtual network peering
+  - Service chaining
+  - Virtual network gateway
+  - Virtual network service endpoint
+#### Virtual Network Peering and Service Chaining
+- Lets virtual networks within Azure connect to one another
+#### Virtual Network Gateway
+- Used to send encrypted traffic between Azure and on-prem over the Internet and to send encrypted traffic between Azure networks.
+#### Virtual Network Service Endpoint
+- Extend your private address space in Azure by providing direct connection to your Azure resources.
+#### Custom Routes
+- User defined route
+- Border Gateway Protocol (BGP)
+#### User Defined Routes
+- Used to override the default system routes so traffic can be routed through firewalls and NVAs
+- You can specify the next hop type
+  - Virtual Appliance
+    - Firewall device used to analyze or filter traffic entering or leaving network.
+  - Virtual Network Gateway
+    - Used to indicate when you want routes for a specific address to be routed to a virtual network gateway
+  - Virtual Network
+    - Used to override default system route
+  - Internet
+    - Used to route traffic to a specified address prefix that is routed to the Internet.
+  - None
+    - Used to drop traffic to a specified address prefix.
+#### Service Tags for User-Defined Routes
+- Service tag is a group of IP address prefixes from a given Azure service.
+#### Border Gateway Protocol
+- Typically used to advertise on-prem routes to Azure when you're connected to an Azure datacenter through Azure Express Route.
+#### Route Selection and Priority
+- If multiple routes are available in a route table, Azure used the route with the longest prefix match.
+  - Example:
+    - 10.0.0.0/16
+    - 10.0.0.0/24
+  - Azure selects the /24, more specific
+- If multiple routes with the same prefix, Azure selects based on the following priority
+  1. User defined
+  2. BGP
+  3. System
+### What is an NVA?
+- A network virtual appliance is a virtual appliance that consists of various layers like:
+  - Firewall
+  - WAN optimizer
+  - Application delivery controllers
+  - Routers
+  - Load Balancers
+  - IDS/IPS
+  - Proxies
+- Used to filter traffic inbound to a virtual network
+- Block malicious requests
+- Block requests made from unexpected resources
+- VMs that control the flow of network traffic by controlling routing
+#### User-Defined Routes
+- For most environments, default system routes are enough to get the environments running
+- Can create multiple route tables
+  - each table can be associated with one or more subnets
+**NVAs should be highly available**
+
 
 
