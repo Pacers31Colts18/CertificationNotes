@@ -543,6 +543,63 @@ protocol-all and port-0
   - Azure Front door
   - Azure Traffic Manager
   - Azure Application Gateway
+## Introduction to Azure Application Gateway
+### What is Azure Application Gateway?
+- Manages the requests that client apps send to web apps that are hosted on a pool of web servers.
+  - VMs
+  - VM Scale Sets
+  - Azure App Service
+  - On-prem servers
+- Round-robin process to load balance requests to the servers in each back-end pool.
+- Includes the following features:
+  - HTTP, HTTPS, HTTP/2, Web socket protocols
+  - Web application firewall to protect
+  - End to end encryption
+  - Autoscaling
+  - Connection draining
+### How Azure Application Gateway Works
+- Includes the following components
+  - Front-end IP address
+    - Public
+    - Private
+    - Bot
+  - Listeners
+    - One or more listeners to recieve incoming requests.
+    - Basic or Multi
+  - Routing Rules
+    - Binds a listener to the back end pools
+#### Load Balancing in Application Gateway
+- Layer 7
+#### Web App Firewall
+- Optional component that handles incoming requests before they reach the listener.
+#### Back-end Pools
+- Can be made up of:
+  - Fixed set of VMs
+  - VM Scale Sets
+  - App hosted by Azure App Services
+  - Collection of on-prem servers
+#### Application Gateway Routing
+- Path based routing
+  - Sends requests with different URLs to different pools of back-end servers
+  - Multiple site routing
+    - Configure more than one web app on the same App Gateway instance.
+    - Register multiple CNAMEs for the IP address of the app gateway, specifiying name of each site
+    - Useful for multi-tenant apps
+    - Included features:
+      - Redirection
+      - Rewrite HTTP headers
+      - Custom error pages
+#### TLS/SSL Termination
+#### Health Probes
+- 200-399 response = Healthy
+#### Autoscaling
+- Supported
+- Up or down based off traffic
+- Removes need to choose a deployment size or instance conut
+#### Websocket and HTTP/2 Traffic
+- Enables full duplex communication between a server and a client
+- 
+
 
 
 
