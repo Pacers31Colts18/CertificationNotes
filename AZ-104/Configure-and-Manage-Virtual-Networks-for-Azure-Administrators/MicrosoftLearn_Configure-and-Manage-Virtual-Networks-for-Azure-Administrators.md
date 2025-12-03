@@ -598,8 +598,34 @@ protocol-all and port-0
 - Removes need to choose a deployment size or instance conut
 #### Websocket and HTTP/2 Traffic
 - Enables full duplex communication between a server and a client
-- 
-
+## Introduction to Azure Network Watcher
+### What is Azure Network Watcher?
+- Monitoring
+  - Topology
+    - Visualization of entire network
+  - Connection Monitor
+    - End to end monitor for Azure and hybrid endpoints
+- Diagnostic
+  - IP Flow Verify
+    - Detect traffic filtering issues at VM level
+  - NSG Diagnostics
+    - Detect traffic filtering issues at VM, VM Scale Set, or App Gateway level
+  - Next Hop
+    - Detect routing issues
+  - Effective security rules
+    - View routes applied to a NIC
+  - Connection troubleshoot
+    - Test a connection between a VM, VM Scale Set, app gateway, bastion host and a VM, FQDN, URI, or IPv4 address.
+  - Packet capture
+    - Remotely create packet capture sessions
+  - VPN troubleshoot
+    - Troubleshoot virtual network gateways and their connections
+- Traffic
+  - Flow logs
+    - Log info about your Azure IP traffic and stores data in Azure storage.
+  - Traffic analytics
+    - Flow Logs Data
+  
 
 
 
