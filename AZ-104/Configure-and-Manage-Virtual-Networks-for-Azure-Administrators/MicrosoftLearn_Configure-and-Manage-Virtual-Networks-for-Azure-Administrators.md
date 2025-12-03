@@ -212,3 +212,105 @@
   - Service tags
     - Help minimize complexity
 ## Host your domain on Azure DNS
+### What is Azure DNS?
+- Allows you to host and manage your domains
+- Not a domain registrar
+#### DNS Record Types
+- A
+  - Host record
+  - Maps the domain or host name to IP
+- CNAME
+  - Used to create an alias from one domain name to another domain name
+- MX
+  - Mail exchange record
+- TXT
+  - Text record
+  - Used to associate text strings with a domain name
+  - Azure and M365 use TXT to verify domain ownership
+### Why use Azure DNS?
+- Improved security
+- Ease of use
+- Private DNS domains
+- Alias record sets
+#### Security Features
+- RBAC
+- Activity log
+- Resource locking
+#### Ease of Use
+- Same Azure creds, contract, and billing
+#### Private Domains
+- Lets you create private zones
+- Provide name resolution for VMs within a virtual network and between virtual networks without having to create a custom DNS solution.
+- Benefits:
+  - Supported as part of Azure infrastructure
+  - All DNS record types are supported
+  - Host names automatically maintained
+  - Split-horizon DNS support
+#### Alias Record Sets
+- Can setup an alias record to direct traffic to an Azure public IP address, Adzure Traffic Manager profile, or an Azure CDN endpoint.
+- Supported in the following DNS record types
+  - A
+  - AAAA
+  - CNAME
+### Configure Azure DNS to host your domain
+#### Configure a public DNS zone
+1. Create a DNS zone in Azure
+   - Following details needed:
+     - Susbcription
+     - Resource group
+     - Domain name
+     - Resource group location
+2. Get your Azure DNS name servers
+   - Get name servers
+   - Update registrar information
+3. Update the domain registrar setting
+   - Edit the Name records with new NS records
+   - Called domain delegation
+4. Verify delegation of domain name services
+   - Query the SOA record
+```powershell
+nslookup -type=SOA joeloveless.dev
+```
+5. Configure your custom DNS settings
+   - A record
+     - Name
+     - Type = A
+     - TTL
+     - IP Address
+  - CNAME record
+    - Name: www
+    - TTL: 600 seconds
+    - Type = CNAME
+#### Configure a private DNS zone
+- Can be used to assign DNS names to VMs in your Azure virtual network
+1. Create a private DNS zone
+   - Subscription
+   - Resource group
+   - Name
+   - Resource group location
+2. Identify virtual networks
+   - Virtual network names need to be added to private zone.
+3. Link your virtual network to private DNS zone
+   - Create a virtual network link
+### Dynamically resolve resource name by using an Alias record
+- Load balancers distribute inbound data requests and traffic across one or more servers
+#### What is an apex domain?
+- Domains highest level
+- @ symbol = apex domain in DNS records
+#### What are alias records?
+- Enables a zone apex domain to reference other Azure resources from the DNS zones.
+- Can point to the following
+  - Traffic manager profile
+  - Azure CDN endpoints
+  - Public IP resource
+  - Front-door profile
+- Alias record support the following:
+  - A
+  - AAAA
+  - CNAME
+#### Use for Alias records
+- Prevenet dangling DNS records
+- Updates DNS record set automatically when an IP address changes
+- Hosts load-balanced applications at the zone apex
+- Points zone apex to Azure CDN endpoints
+## Configure Azure Virtual Network Peering
