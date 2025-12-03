@@ -322,8 +322,72 @@ nslookup -type=SOA joeloveless.dev
   - Can peer across subscription and tenants
 - Uses Azrure backbone for privacy and isolation
 - Easy to setup seamless data transfer, great performance
-
-[**Region1**]       [**Region2**]
-[VNET1]<----Global VNet Peering----->[VNET2 <----Regional VNET Peering------> VNET3]
+#### Things to Know
+- Regional
+  - Same Azure public cloud region
+  - Same China cloud region
+  - Same Azure government cloud region
+- Global
+  - Any Azure public cloud region
+  - Any China cloud region
+  - Global peering of virtual networks in different Azure government cloud regions isn't permitted
+#### Things to Consider
+- Private
+  - On Azure backbone
+- Performance
+  - Azure infrastructure
+- Simplified communication
+- Seamless disk transfer
+- No resource disruptions
+  - No downtime when creating or after
+### Determine gateway transit and connectivity
+- Gateway transit allows peered virtual networks to share the gateway and get across to resources
+- No VPN gateway is required in the peered spoke virtual network
+- Default VNET peering provides full connectivity
+#### Things to Know
+- Virtual network can only have one VPN gateway
+- Gateway transit supported for both regional and global virtual network peering
+- Gateway transit allows peered virtual networks to share the gateway and get access to external resources
+- You can apply NSGs in a virtual network to block/allow access to other virtual networks or subnets.
+### Create virtual network peering
+#### Things to Know
+- Network Contributor role or Custom role
+- To create peering
+  - 2 virtual machines
+- The 2nd virtual machine in the peering is the **remote network**
+#### Key Scenarios
+- Data replication
+- Database failover
+- **VNET address spaces cannot overlap**
+#### How to check your peering status
+- Azure Resource Manager Deployment
+  - Status conditions: Initiated/Connected
+  - Classic Deplyoment: Updating also
+- When you create the initial peering to the 2nd virtual network from the first virtual network the peering status for the first is **initiated**
+- Subsequent peering fro the second virtual network to the first virtual network
+  - Peering status for both networks
+    - **Connected**
+  - 1st virtual network will change from **initiated** to **connected**
+### Extend peering with user-defined routes and service chaining
+- Virtual network peering is non-transitive
+- Example:
+  - 3 virtual networks
+    - A
+    - B
+    - C
+  - Peered:
+    - A <-----> B
+    - B <-----> C
+  - Not Peered
+    - A <-----> C
+#### Things to know about extended peering
+- Hub and spoke network
+  - All the spoke virtual networks can then peer with the hub virtual network
+- User-Defined Route
+  - Virtual network peering enables the next hop in a **user-defined** route to be the IP address of a VM in teh peered virtual network or a VPN gateway.
+- Service Chaining
+  - Used to direct traffic from one virtual network to a virtual appliance or gateway
+  - 
         
+
 
