@@ -122,3 +122,93 @@
   - Default method
 - Static
   - Select and assign any unassigned or unreserved IP address in the range.
+
+## Configure Network Security Groups
+- A way to limit network traffic to resources in your virtual network.
+### Implement Network Security Groups
+- Can assign to a subnet (most common) or network interface.
+- Single NSG can be associated multiple times.
+- Lists the security rules that allow/deny inbound/outbound traffic.
+#### Things to Know
+- Overview page from a VM provide info about the associated NSGs
+#### NSGs and Subnets
+- Use NSG to restrict traffic flow to all machines that reside within the subnet.
+- Each subnet can have a maximum of one associated NSG.
+#### NSGs and NICs
+- Define NSG rules to control all traffic that flows through the NIC.
+- Each NIC that exists in a subnet can have zero or one associated NSGs.
+### Determine NSG Rules
+- Enable you to filter network traffic that can flow in and out of subnets and network interfaces.
+- Default rules can't be deleted. Add other rules at a higher priority
+  - 65xxx = Default rules
+  - Smaller number = higher priority
+#### Things to Know
+**Common Conditions**
+| Setting            | Value                                                                     |
+| -------------------|---------------------------------------------------------------------------|
+| Source             | Any IP address, My IP address, service tag, or Application Security group |
+| Source port ranges | Specify the ports on which the rule allows or denies traffic              |
+| Destination        | Any IP address, service tag, or Application Security Group                |
+| Protocol           | TCP/UDP/ICMP. Default = Any                                               |
+| Priority           | Value between 100-4096                                                    |
+#### Inbound Traffic Rules
+- Azure sets 3 default rules
+- These rules deny inbound traffic
+#### Outbound Traffic Rules
+- Azure sets 3 default rules
+- These rules allow outbound traffic to the internet and your virtual network.
+### Determine NSG Effective Rules
+- Evaluated independently for the subnet and NIC.
+- An allow rule must exist at both levels for traffic to be admitted.
+#### Inbound
+1. NSG rule processed
+2. NIC rule processed
+#### Outbound
+1. NIC rule processed
+2. NSG rule processed
+#### NSG Evaluation
+- Inbound and outbound rules are considered based on the priority and processing order.
+#### Things to Consider
+- Consider allowing all traffic.
+- Consider importance of allow rules
+  - Must be applied at both levels
+- Consider intra-subnet traffic.
+- Consider rule priority
+  - Lower the number, higher the priority
+  - Leave gaps in priority numbering such as 100, 200, 300
+  - Gaps in numbering allow you to add rules w/o having to edit existing rules.
+#### View Effective Security Rules
+- You can use this to verify which security rules are applied to your machines, subnets, and NICs.
+- A part of the Network Watcher tools
+### Create NSG Rules
+#### Things to Know
+- Source
+  - Identifies how the security rule controls **inbound** traffic.
+- Destination
+  - Identifies how the security rule controls **outbound** traffic.
+- Service
+  - Destianation protocol and port range for the security rule.
+  - SSH, RDP, FTP are predefined.
+- Priority
+  - Set the number
+- Name
+  - Custom name
+### Implement Application Security Groups
+- To logically group VMs by workload
+- Extend your applications structure
+- ASGs logically group VMs, web servers, app servers
+- Define rules to control the traffic flow
+- Wrap the ASG within an NSG for added security
+#### Things to Know
+- Work the same as NSGs but for an app-centric way of looking.
+#### Things to Consider
+- Several advantages:
+  - IP address maintenance
+  - Consider no subnets
+    - Don't need to distribute servers across specific subnets
+  - Simplified rules
+    - Help eliminate need for multiple rulesets
+  - Workload support
+  - Service tags
+    - Help minimize complexity
+## Host your domain on Azure DNS
