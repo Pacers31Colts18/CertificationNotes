@@ -323,6 +323,7 @@ nslookup -type=SOA joeloveless.dev
 - Uses Azrure backbone for privacy and isolation
 - Easy to setup seamless data transfer, great performance
 
-**Region1**       **Region2**
+[**Region1**]       [**Region2**]
 [VNET1]<----Global VNet Peering----->[VNET2 <----Regional VNET Peering------> VNET3]
         
+
