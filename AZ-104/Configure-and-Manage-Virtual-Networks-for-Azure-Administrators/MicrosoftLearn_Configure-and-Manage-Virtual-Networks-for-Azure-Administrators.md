@@ -86,3 +86,39 @@
 |VPN, Virtual Network Gateway, NAT Gateway                                               | Gateway IP Configuration |
 |Public Load Balancer, Application Gateway, Azure Firewall, Route Service, API Management| Front End Configuration  |
 |Bastion Host                                                                            | Public IP Configuration  |
+
+**SKU FEATURES**
+| Public IP Address | Standard SKU                                       |
+|-------------------|----------------------------------------------------|
+| Allocation Method | Static                                             |
+| Security          | Secure by default                                  |
+| Available Zones   | Supportd. Can be nonzonal, zonal, or zone redundant|
+
+### Allocate or Assign Private IP Addresses
+- Dyanmic or Static
+- VM
+  - Private IP Address association
+    - NIC
+  - Dynamic IP Address
+    - Yes
+  - Static IP Address
+    - Yes
+- Internal Load Balancer
+  - Private IP address association
+    - Front-end configuration
+  - Dynamic IP Address
+    - Yes
+  - Static IP address
+    - Yes
+- Application Gateway
+  - Private IP address association
+    - Front-end configuration
+  - Dynamic IP Address
+    - Yes
+  - Static IP address
+    - Yes
+**Private IP Address Assignment**
+- Dynamic
+  - Default method
+- Static
+  - Select and assign any unassigned or unreserved IP address in the range.
