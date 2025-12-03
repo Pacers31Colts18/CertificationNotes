@@ -461,6 +461,88 @@ nslookup -type=SOA joeloveless.dev
   - each table can be associated with one or more subnets
 **NVAs should be highly available**
 ## Introduction to Azure Load Balancer
+### What is Azure Load Balancer?
+- Distribute traffic equally across multiple computers.
+- Azure service that allows you to evenly distribute incoming network traffic across a group of Azure VMs, or across instances in a Virtual Machine Scale Set.
+- Public
+  - Load balance internet traffic
+  - Maps the public IP and port # of incoming traffic to the private IP and port number of the back-end pool VMs.
+- Internal
+  - Directs traffic to resources that are inside a virtual network or that use a VPN to access Azure infrastructure.
+  - Used where private IPs are needed at the front end only.
+  - Enables the following types of load balancing
+    - Within a virtual network
+    - Cross-permises virtual network
+    - Multi-tier apps
+    - LOB apps
+### How Azure Load Balancer works
+- Operates at the Layer 4 - Transport layer
+- Several elements
+  - Front-end IP
+  - Load balancer rules
+  - Back-end pool
+  - Health probes
+  - Inbound NAT rules
+  - High availability ports
+  - Outbound rules
+#### Front-end IP
+- Address clients use to connect
+- Private or Public
+- Public = Public load balancer
+  - Maps public IP and port to private IP and port
+- Private = Internal load balancer
+  - Distributes traffic inside a virtual network
+#### Load Balancer Rules
+- Defines how traffic is distributed to back-end pool
+- Managed using five-tuple hash
+  - Source IP
+  - Source Port
+  - Destination IP
+  - Destination Port
+  - Protocol Type
+  - Session Affinity
+**Can't apply rules based on internal traffic content**
+#### Back-End Pool
+- Group of VMs or instances that respond to the incoming request.
+- Implements automatic config to redistribute load across the altered number of instances when you scale up or down.
+#### Health Probes
+- Used to determine health status of instances in the back-end pool.
+- TCP custom probe
+- HTTP/HTTPS custom probe
+#### Session Persistence
+- By default, dstributes equally among VM instances
+- Stickiness only within a transport session
+  - Two-tuple
+    - Source IP
+    - Destination IP
+  - Three-tuple
+    - Source IP
+    - Destination IP
+    - Protocol Type
+#### High-Availability Ports
+Rule:
+```powershell
+protocol-all and port-0
+```
+- High availability rule
+- Five-tuple
+  - Source IP
+  - Source Port
+  - Destination IP
+  - Destination Port
+  - Protocol
+#### Inbound NAT Rules
+- Can use load balancing rules in combo with NAT rules
+#### Outbound Rules
+- Configure SNAT for all VMs or instances identified by the back-end pool
+### When to use Azure Load Balancer
+- Best suited for apps that require ultra low latency and high performance
+#### When not to use
+- Single instance, small amount of traffic.
+- Other Alternatives:
+  - Azure Front door
+  - Azure Traffic Manager
+  - Azure Application Gateway
 
 
 
