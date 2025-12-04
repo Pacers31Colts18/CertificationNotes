@@ -51,7 +51,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [x] Configure and manage virtual networks for Azure administrators
 
 ### CloudLee - Demos
-- [ ] Virtual Networking
+- [x] Virtual Networking
 - [ ] Advanced Networking
 - [ ] Load Balancing and Connectivity
 - [ ] Monitoring
@@ -130,6 +130,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Review weak areas from test #2
 - [ ] Learn Azure app quizzes (Final review)
 - [ ] Light review + rest before exam
+
 
 
 
