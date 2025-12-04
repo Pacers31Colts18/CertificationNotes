@@ -1,1 +1,85 @@
 # Cloud Lee - Demo - Virtual Networking
+## Configure a VNet
+- Create a Resource > Virtual Network
+  - Subscription
+  - Resource Group
+  - Name
+  - Region
+- IP Address Space
+  - IPv6 is optional
+- Subnet
+- Security
+  - Bastion Host
+  - DDOS
+  - Firewall
+**Can't change subnets or ranges while in use.
+## Create a Public IP Address and NAT Gateway
+- Create a Resource > Public IP Address
+- IP Version
+  - IPv4
+  - IPv6
+  - Both
+- SKU
+  - Standard
+  - Basic
+- Tier
+  - Regional
+  - Global
+- Assignment
+  - Dynamic
+  - Static
+- Subscription
+- Resource Group
+- Location
+- Availability Zone
+  - No Zone
+  - Zone Redundant
+  - 3
+  - 2
+  - 1
+- NAT Gateways > Create
+  - Subscription
+  - Resource Group
+  - NAT Gateway Name
+  - Region
+  - Availability Zone
+  - TCP Idle Timeout
+- Outbound IP
+  - Public IP Addresses or Public IP Prefixes
+- Subnet
+  - Virtual Network
+  - Subnet
+**$$$ as soon as you create the resource**
+## Configure NSGs
+- VNet1
+  - VM1
+    - Subnet 1
+  - VM2
+    - Subnet 2
+    - Public IP
+      - Standard
+        - All Traffic blocked by default
+  - Create a Resource > Create NSG
+  - Subscription
+  - Resource Group
+  - Name
+  - Region
+  - Associate subnet
+    - VNet 1
+    - Subnet 2
+  - Inbound Security Rules
+    - Source
+    - Source Port Ranges
+    - Destination
+    - Service
+    - Destination Port Ranges
+    - Protocol
+    - Action
+    - Priority
+    - Name
+    - Description
+## Configure an NSG to use Augmented Security Rules
+- Create Resource > Application Security Group
+- VM > Networking > Application Security Group
+- ASG and NIC must belong to the same region
+- Once associated with NIC in one region, can't add to NICs in other regions.
