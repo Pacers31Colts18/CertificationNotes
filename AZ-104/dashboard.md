@@ -60,7 +60,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 
 - [x] Virtual Networking
 - [x] Advanced Networking
-- [ ] Load Balancing and Connectivity
+- [x] Load Balancing and Connectivity
 - [ ] Monitoring
 
 ### Microsoft - Labs
@@ -130,6 +130,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Review weak areas from test #2
 - [ ] Learn Azure app quizzes (Final review)
 - [ ] Light review + rest before exam
+
 
 
 
