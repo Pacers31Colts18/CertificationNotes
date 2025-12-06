@@ -69,7 +69,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Lab06 - Implement Network Traffic Management
 
 ### Azure Learn App
-- [ ] Networking Quizzes
+- [x] Networking Quizzes
 
 ### Tutorials Dojo
 - [ ] Networking Practice Test
