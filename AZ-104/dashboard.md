@@ -59,7 +59,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 ### CloudLee - Lectures
 
 - [x] Virtual Networking
-- [ ] Advanced Networking
+- [x] Advanced Networking
 - [ ] Load Balancing and Connectivity
 - [ ] Monitoring
 
