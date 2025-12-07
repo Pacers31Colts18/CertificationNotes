@@ -67,6 +67,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [x] Lab04 - Implement Virtual Networking
 - [ ] Lab05 - Implement Intersite Connectivity
 - [ ] Lab06 - Implement Network Traffic Management
+- [ ] Lab11 - Implement Monitoring
 
 ### Azure Learn App
 - [x] Networking Quizzes
