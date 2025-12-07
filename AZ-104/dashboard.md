@@ -12,7 +12,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 
 ## Master Progress Tracker
 - [x] Week 1: Identity & Governancwe
-- [ ] Week 2: Networking
+- [x] Week 2: Networking
 - [ ] Week 3: Compute
 - [ ] Week 4: Storage & Backup
 - [ ] Week 5: Monitoring & Security
@@ -70,7 +70,8 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [x] Networking Quizzes
 
 ### Tutorials Dojo
-- [ ] Networking Practice Test
+- [x] Networking Practice Test
+  - Attempt 1: 15/29 - 51.72%
 
 ---
 
@@ -128,6 +129,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Review weak areas from test #2
 - [ ] Learn Azure app quizzes (Final review)
 - [ ] Light review + rest before exam
+
 
 
 
