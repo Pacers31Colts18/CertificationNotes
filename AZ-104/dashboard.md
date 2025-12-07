@@ -61,7 +61,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [x] Virtual Networking
 - [x] Advanced Networking
 - [x] Load Balancing and Connectivity
-- [ ] Monitoring
+- [x] Monitoring
 
 ### Microsoft - Labs
 - [x] Lab04 - Implement Virtual Networking
