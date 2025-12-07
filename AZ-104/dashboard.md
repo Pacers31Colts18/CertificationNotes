@@ -54,20 +54,17 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [x] Virtual Networking
 - [x] Advanced Networking
 - [x] Load Balancing and Connectivity
-- [ ] Monitoring
 
 ### CloudLee - Lectures
 
 - [x] Virtual Networking
 - [x] Advanced Networking
 - [x] Load Balancing and Connectivity
-- [x] Monitoring
 
 ### Microsoft - Labs
 - [x] Lab04 - Implement Virtual Networking
 - [ ] Lab05 - Implement Intersite Connectivity
 - [ ] Lab06 - Implement Network Traffic Management
-- [ ] Lab11 - Implement Monitoring
 
 ### Azure Learn App
 - [x] Networking Quizzes
@@ -131,6 +128,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Review weak areas from test #2
 - [ ] Learn Azure app quizzes (Final review)
 - [ ] Light review + rest before exam
+
 
 
 
