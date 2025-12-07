@@ -63,7 +63,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 
 ### Microsoft - Labs
 - [x] Lab04 - Implement Virtual Networking
-- [ ] Lab05 - Implement Intersite Connectivity
+- [x] Lab05 - Implement Intersite Connectivity
 - [ ] Lab06 - Implement Network Traffic Management
 
 ### Azure Learn App

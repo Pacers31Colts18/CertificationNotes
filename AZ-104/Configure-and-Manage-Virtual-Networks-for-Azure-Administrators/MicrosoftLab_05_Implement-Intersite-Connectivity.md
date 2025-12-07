@@ -15,6 +15,29 @@
       - Subnet Name: Manufacturing
       - Subnet Address Range: 172.16.0.0/24
 - Task 3: Use Network Watcher to test the connection between virtual machines.
+  - Source type: Virtual machine
+    - Virtual machine: CoreServicesVM
+  - Destination type: Select a virtual machine
+    - Virtual machine 	ManufacturingVM
+  - Preferred IP Version: Both
+  - Protocol: TCP
+  - Destination port: 3389
+  - Source port: Blank
+  - Diagnostic tests:	Defaults
 - Task 4: Configure virtual network peerings between different virtual networks.
 - Task 5: Use Azure PowerShell to test the connection between virtual machines.
+  - CoreServicesVM: 10.0.0.4
+  - VM > Operations > Run Command Script
 - Task 6: Create a custom route.
+  - CoreServicesVNet
+  - Subnets > Add Subnet
+    - Name: perimiter
+    - Starting Address: 10.0.1.0/24
+  - Route Tables
+    - Name: rt-CoreServices
+    - Routes > Add Route
+      - Name: PerimitertoCore
+      - Destination Type: IP Address
+      - Destination IP Addresses/CIDR Range: 10.0.0.0/16
+      - Next Hop Type: Virtual Appliance
+      - Next Hop Address: 10.0.0.0/16
