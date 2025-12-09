@@ -13,8 +13,8 @@ Schedule: 6 weeks - ~2 Hours/Day
 ## Master Progress Tracker
 - [x] Week 1: Identity & Governancwe
 - [x] Week 2: Networking
-- [ ] Week 3: Compute
-- [ ] Week 4: Storage & Backup
+- [ ] Week 3: Storage
+- [ ] Week 4: Compute
 - [ ] Week 5: Monitoring & Security
 - [ ] Week 6: Final Prep
 
@@ -71,64 +71,114 @@ Schedule: 6 weeks - ~2 Hours/Day
 
 ### Tutorials Dojo
 - [x] Networking Practice Test
-  - Attempt 1: 15/29 - 51.72%
+  - Attempt 1: 51.72%
+  - Attempt 2: 62.07%
 
 ---
 
 
-## Week 3 – Implement & Manage Storage
-- [ ] Microsoft Learn – Configure storage accounts
-- [ ] CloudLee Lecture – Storage Accounts
-- [ ] CloudLee Demo – Create & Configure Storage Account
-- [ ] CloudLee Lecture – Blob Storage
-- [ ] CloudLee Demo – Blob lifecycle management
-- [ ] CloudLee Lecture – Azure Files
-- [ ] CloudLee Demo – Azure Files setup
-- [ ] Microsoft Lab - Lab07 - Manage Azure Storage
-- [ ] Hands-on lab – Replication & redundancy
-- [ ] Learn Azure app quizzes (Storage)
-- [ ] Tutorials Dojo practice test (Storage)
+## Week 3 – Implement and Manage Storage
+
+### Microsoft Learn
+- [ ] Implement and Manage Storage
+
+### CloudLee - Demos
+- [ ] Storage
+
+### CloudLee - Lectures
+- [ ] Storage
+
+### Microsoft - Labs
+- [ ] Lab07 - Manage Azure Storage
+
+### Azure Learn App
+- [ ] Storage quizzes
+
+### Tutorials Dojo
+- [ ] Implement and Manage Storage Practice Test
 
 ---
 
 ## Week 4 – Deploy & Manage Compute Resources
-- [ ] Microsoft Learn – VM basics
-- [ ] CloudLee Lecture – Virtual Machines
-- [ ] CloudLee Demo – Deploy VM in Portal
-- [ ] CloudLee Demo – Configure VM networking & disks
-- [ ] CloudLee Lecture – VM Scale Sets
-- [ ] CloudLee Demo – Create VM Scale Set
-- [ ] CloudLee Lecture – App Services
-- [ ] CloudLee Demo – Deploy App Service
-- [ ] Learn Azure app quizzes (Compute)
-- [ ] Tutorials Dojo practice test (Compute)
+
+### Microsoft Learn
+- [ ] Deploy and manage Azure compute resources
+
+### CloudLee - Demos
+- [ ] Virtual Machines
+- [ ] App Hosting
+- [ ] Container Hosting
+
+### CloudLee - Lectures
+- [ ] Virtual Machines
+- [ ] App Hosting
+- [ ] Container Hosting
+
+### Microsoft - Labs
+- [ ] Lab08 - Manage Virtual Machines
+- [ ] Lab09a - Implement Web Apps
+- [ ] Lab09b - Implement Azure Container Instances
+- [ ] Lab09c - Implement Azure Container Apps
+
+### Azure Learn App
+- [ ] Deploy and manage Azure Compute Resources
+
+### Tutorials Dojo
+- [ ] Deploy and Manage Azure Compute Resources Practice Test
 
 ---
 
 ## Week 5 – Monitor & Maintain Azure Resources
-- [ ] Microsoft Learn – Azure Monitor
-- [ ] CloudLee Lecture – Monitoring basics
-- [ ] CloudLee Demo – Configure Azure Monitor alerts
-- [ ] CloudLee Lecture – Log Analytics
-- [ ] CloudLee Demo – Use Log Analytics queries
-- [ ] CloudLee Lecture – Backup & Recovery
-- [ ] CloudLee Demo – Set up Azure Backup
-- [ ] CloudLee Lecture – Site Recovery
-- [ ] CloudLee Demo – Configure Site Recovery
-- [ ] Learn Azure app quizzes (Monitoring/Backup)
-- [ ] Tutorials Dojo practice test (Monitoring/Backup)
+
+### Microsoft Learn
+- [ ] Monitor and backup Azure Resource
+
+### CloudLee - Demos
+- [ ] Backup and Site Recovery
+- [ ] Monitoring
+- [ ] Governance and Security
+
+### CloudLee - Lectures
+- [ ] Backup and Site Recovery
+- [ ] Monitoring
+- [ ] Governance and Security
+
+### Microsoft - Labs
+- [ ] Lab 02b: Manage Governance via Azure Policy
+- [ ] Lab10 - Implement Data Protection
+- [ ] Lab11 - Implement Monitoring 
+
+### Azure Learn App
+- [ ] Monitor and maintain Azure Resources
+
+### Tutorials Dojo
+- [ ] Monitor and maintain Azure Resources Practice Test
 
 ---
 
 ## Week 6 – Final Review & Exam Prep
-- [ ] Review all Microsoft Learn paths
-- [ ] CloudLee Exam Prep section
-- [ ] Tutorials Dojo full practice test #1 (timed)
-- [ ] Review weak areas from test #1
-- [ ] Tutorials Dojo full practice test #2 (timed)
-- [ ] Review weak areas from test #2
+
+### Review
+- [ ] Review notes
+- [ ] Review TutorialsDojo sheets
+- [ ] CloudLee Exam Prep Section
+
+### Practice Quizzes
 - [ ] Learn Azure app quizzes (Final review)
+
+### Tutorials Dojo
+- [ ] Timed Mode Set 1
+- [ ] Timed Mode Set 2
+- [ ] Timed Mode Set 3
+- [ ] Timed Mode Set 4
+- [ ] Timed Mode Set 5
+- [ ] Randomized Test
+- [ ] Review weak areas from practice tests
+
+### Final Prep
 - [ ] Light review + rest before exam
+
+
 
 
 
