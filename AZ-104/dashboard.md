@@ -80,7 +80,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 ## Week 3 – Implement and Manage Storage
 
 ### Microsoft Learn
-- [ ] Implement and Manage Storage
+- [x] Implement and Manage Storage
 
 ### CloudLee - Demos
 - [ ] Storage
@@ -177,6 +177,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 
 ### Final Prep
 - [ ] Light review + rest before exam
+
 
 
 
