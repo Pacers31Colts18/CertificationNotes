@@ -86,7 +86,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Storage
 
 ### CloudLee - Lectures
-- [ ] Storage
+- [x] Storage
 
 ### Microsoft - Labs
 - [ ] Lab07 - Manage Azure Storage
@@ -177,6 +177,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 
 ### Final Prep
 - [ ] Light review + rest before exam
+
 
 
 
