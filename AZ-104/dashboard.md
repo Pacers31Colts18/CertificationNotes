@@ -83,7 +83,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [x] Implement and Manage Storage
 
 ### CloudLee - Demos
-- [ ] Storage
+- [x] Storage
 
 ### CloudLee - Lectures
 - [x] Storage
@@ -92,7 +92,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [ ] Lab07 - Manage Azure Storage
 
 ### Azure Learn App
-- [ ] Storage quizzes
+- [x] Storage quizzes
 
 ### Tutorials Dojo
 - [ ] Implement and Manage Storage Practice Test
@@ -177,6 +177,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 
 ### Final Prep
 - [ ] Light review + rest before exam
+
 
 
 
