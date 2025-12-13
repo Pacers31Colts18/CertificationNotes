@@ -89,13 +89,14 @@ Schedule: 6 weeks - ~2 Hours/Day
 - [x] Storage
 
 ### Microsoft - Labs
-- [ ] Lab07 - Manage Azure Storage
+- [x] Lab07 - Manage Azure Storage
 
 ### Azure Learn App
 - [x] Storage quizzes
 
 ### Tutorials Dojo
-- [ ] Implement and Manage Storage Practice Test
+- [x] Implement and Manage Storage Practice Test
+      - Attempt 1: 60%
 
 ---
 
@@ -177,6 +178,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 
 ### Final Prep
 - [ ] Light review + rest before exam
+
 
 
 
