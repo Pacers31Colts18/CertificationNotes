@@ -13,7 +13,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 ## Master Progress Tracker
 - [x] Week 1: Identity & Governancwe
 - [x] Week 2: Networking
-- [ ] Week 3: Storage
+- [x] Week 3: Storage
 - [ ] Week 4: Compute
 - [ ] Week 5: Monitoring & Security
 - [ ] Week 6: Final Prep
@@ -178,6 +178,7 @@ Schedule: 6 weeks - ~2 Hours/Day
 
 ### Final Prep
 - [ ] Light review + rest before exam
+
 
 
 
